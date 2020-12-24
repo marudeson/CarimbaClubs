@@ -1,0 +1,22 @@
+$(function(){
+    $("#r").blur(function(){
+		if($("#r").val()=="Treinador"){
+			$("#trein").attr("hidden",false);
+			$("#a").attr("hidden",false);
+		}else{
+			$("#trein").attr("hidden",true);
+			$("#a").attr("hidden",true);
+		}	
+	});
+});
+$(function(){
+	$("#r").blur(function(){
+		if($("#r").val()=="Jogador"){
+			$("#joga").attr("hidden",false);
+			$("#b").attr("hidden",false);
+		}else{
+			$("#joga").attr("hidden",true);
+			$("#b").attr("hidden",true);
+		}
+	});
+});

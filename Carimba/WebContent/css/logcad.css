@@ -1,0 +1,98 @@
+@import url("bootstrap.min.css");
+
+*{
+	outline:none;
+}
+
+html, body {
+	height: 100%;
+}
+
+body {
+	background-color: #f85c70 !important;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-align: center;
+	align-items: center;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.form-signin {
+	width: 100%;
+	max-width: 330px;
+	padding: 10px;
+	margin: auto;
+	margin-top: 5%;
+	
+}
+
+.form-signi {
+	width: 100%;
+	max-width: 350px;
+	padding: 15px;
+	margin: auto;
+	background-color: #000;
+}
+
+.form-signi .form-controle {
+	position: relative;
+	height: auto;
+	font-size: 16px;
+	border: 0;
+	border-bottom: 1.5px solid #cacaca;
+	outline: none;
+	box-sizing: border-box;
+}
+
+.form-signin .form-control {
+	position: relative;
+	box-sizing: border-box;
+	height: auto;
+	outline: 1px solid white;
+	padding: 10px;
+	font-size: 16px;
+}
+
+.imaginha {
+	background-color: #fff;
+	padding: 8px 14px;
+	border-radius: 5px;
+	display: inline-block;
+	margin-bottom: 2px;
+	margin-left: 30px;
+}
+
+a {
+	color: #fff;
+}
+
+a:hover {
+	color: #dbccff;
+	text-decoration: none;
+}
+
+.form-signin .checkbox {
+	font-weight: 400;
+}
+
+#t {
+	margin-right: 20%;
+}
+
+.botao {
+	background-color: #fa347b;
+	border: none;
+	padding: 12px 25px;
+	border-radius: 25px;
+	margin-bottom: 5%;
+	color: #000;
+}
+
+.botao:hover {
+	background-color: #f73174;
+}
+
+::placeholder {
+	color: #f09 !important;
+}

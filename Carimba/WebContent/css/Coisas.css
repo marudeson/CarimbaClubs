@@ -1,0 +1,82 @@
+@import url("bootstrap.css");
+
+.cor {
+	color: #fff !important;
+}
+
+.jumbotron {
+	background-color: #fff;
+}
+
+#help {
+	float: right;
+}
+
+.bg-red {
+	background-color: #bf1548 !important;
+}
+
+#d {
+	margin-bottom: 5%;
+}
+
+#bt {
+	background-color: #bf1548;
+	border: none;
+	margin-right: 4%;
+}
+
+#btd {
+	background-color: #ffd4e0;
+	border: none;
+	color: #000;
+}
+
+#bt:hover {
+	background-color: #eb285f;
+}
+
+#btd:hover {
+	background-color: #ffc9de;
+	color: #000 !important;
+}
+
+.btn-in {
+	border: none;
+	background-color: #bf1548;
+	color: #fff;
+	padding: 8px 12px;
+	border-radius: 4px;
+	margin-left: -10px;
+}
+
+.btn:hover {
+	color: #fff !important;
+}
+
+#es5 {
+	margin-top: 5%;
+}
+
+#mais {
+	float: right;
+	border: none;
+	background-color: #fff;
+	outline: none;
+}
+
+#del {
+	color: red;
+	float: right;
+	margin-bottom: 5%
+}
+
+#bell {
+	float: right;
+}
+
+.ordem {
+	margin-left: 8%;
+	margin-right: 8%;
+	margin-bottom: 5%;
+}
